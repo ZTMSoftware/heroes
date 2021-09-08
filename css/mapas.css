@@ -1,0 +1,28 @@
+.mapas__container {
+    background-color: cornflowerblue;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.2fr 1fr;
+}
+
+.mapas__container-titulo {
+    background-color: darkblue;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mapas__titulo {
+    padding-top: 2.8%;
+    color: #EEEEEE;
+}
+
+.mapas__container-lista {
+    display: grid;
+    background-color: darkorange;
+}
+
+.mapas__container-lista-mapa {
+    background-color: dimgray;
+    grid-column: span 2;
+}

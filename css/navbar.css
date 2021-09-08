@@ -1,0 +1,128 @@
+.navbar {
+    background-color: #393E46;
+    height: 70px;
+    color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+
+/* Estilos logo / */
+
+.navbar-logo {
+    align-self: center;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-logo:hover {
+    cursor: pointer;
+}
+
+.navbar-logo-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item heroes / */
+
+.navbar-heroes {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-heroes-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item mapas / */
+
+.navbar-mapas {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-mapas-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+.navbar-heroes-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item streamer / */
+
+.navbar-streamers {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-streamers-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item Tierlist / */
+
+.navbar-tierlist {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-tierlist-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos item Salir / */
+
+.navbar-salir {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-salir-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* / Estilos hover / */
+
+.navbar-hover-secundario:hover {
+    background-color: #00ADB5;
+    cursor: pointer;
+}
+
+
+/* / Estilos hover */
+
+.navbar-hover-primario:hover {
+    cursor: pointer;
+}
