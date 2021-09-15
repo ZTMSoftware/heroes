@@ -5,6 +5,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 100%;
+    position: static;
+    bottom: 0;
 }
 
 
@@ -125,4 +127,17 @@
 
 .navbar-hover-primario:hover {
     cursor: pointer;
+}
+
+
+/* QUITAR DECORACION A HIPERVINCULO */
+
+.letra {
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+.letra:hover {
+    text-decoration: none;
+    color: #00ADB5;
 }

@@ -1,0 +1,88 @@
+.home__container {
+    background-color: rgb(132, 237, 100);
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 350px 1fr 1fr 1fr;
+}
+
+.home__container-titulo {
+    background-color: darkblue;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home__titulo {
+    color: #EEEEEE;
+}
+
+.home__container-guia {
+    background-color: rgba(24, 110, 29, 0.226);
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 25% 55% 20%;
+}
+
+.home__guia {
+    font-size: 50px;
+    color: #EEEEEE;
+    background-color: blue;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__guia-descripcion {
+    color: #EEEEEE;
+    background-color: cornflowerblue;
+}
+
+.home__guia-boton {
+    color: #EEEEEE;
+    background-color: darksalmon;
+}
+
+.boton {
+    color: #EEEEEE;
+    background-color: darkslategray;
+    width: 15%;
+    height: 40%;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.home__container-heroes {
+    background-color: blueviolet;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 100vw;
+}
+
+.home__heroes {
+    color: #EEEEEE;
+}
+
+.home__container-campo {
+    background-color: darkgoldenrod;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center
+}
+
+.home__campo {
+    color: #EEEEEE;
+}
+
+.home__container-streamer {
+    background-color: forestgreen;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center
+}
+
+.home__streamer {
+    color: #EEEEEE;
+}
