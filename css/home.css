@@ -2,7 +2,7 @@
     background-color: rgb(132, 237, 100);
     display: grid;
     width: 100%;
-    grid-template-rows: 1fr 350px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 350px 350px 350px 350px;
 }
 
 .home__container-titulo {
@@ -13,76 +13,143 @@
 }
 
 .home__titulo {
-    color: #EEEEEE;
+    color: #eeeeee;
 }
 
 .home__container-guia {
-    background-color: rgba(24, 110, 29, 0.226);
+    background-color: indigo;
     font-weight: bold;
     text-align: center;
     display: grid;
     width: 100vw;
-    grid-template-rows: 25% 55% 20%;
+    grid-template-rows: 25% 50% 25%;
 }
 
 .home__guia {
     font-size: 50px;
-    color: #EEEEEE;
-    background-color: blue;
+    color: #eeeeee;
+    background-color: indigo;
     align-self: center;
     justify-self: center;
 }
 
 .home__guia-descripcion {
-    color: #EEEEEE;
-    background-color: cornflowerblue;
+    color: #eeeeee;
+    background-color: indigo;
+    align-self: center;
+    justify-self: center;
 }
 
 .home__guia-boton {
-    color: #EEEEEE;
-    background-color: darksalmon;
+    color: #eeeeee;
+    background-color: indigo;
+    align-self: center;
+    align-content: center;
+    height: 60%;
 }
 
 .boton {
-    color: #EEEEEE;
+    color: #eeeeee;
     background-color: darkslategray;
     width: 15%;
-    height: 40%;
+    height: 100%;
     align-self: center;
     align-content: center;
     text-align: center;
 }
 
 .home__container-heroes {
-    background-color: blueviolet;
-    font-size: 50px;
+    background-color: crimson;
     font-weight: bold;
     text-align: center;
+    display: grid;
     width: 100vw;
+    grid-template-rows: 25% 50% 25%;
 }
 
 .home__heroes {
-    color: #EEEEEE;
+    font-size: 50px;
+    color: #eeeeee;
+    background-color: crimson;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__heroes-descripcion {
+    color: #eeeeee;
+    background-color: crimson;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__heroes-boton {
+    color: #eeeeee;
+    background-color: crimson;
+    align-self: center;
+    align-content: center;
+    height: 60%;
 }
 
 .home__container-campo {
-    background-color: darkgoldenrod;
-    font-size: 50px;
+    background-color: brown;
     font-weight: bold;
-    text-align: center
+    text-align: center;
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 25% 50% 25%;
 }
 
 .home__campo {
-    color: #EEEEEE;
+    font-size: 50px;
+    color: #eeeeee;
+    background-color: brown;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__campo-descripcion {
+    color: #eeeeee;
+    background-color: brown;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__campo-boton {
+    color: #eeeeee;
+    background-color: brown;
+    align-self: center;
+    align-content: center;
+    height: 60%;
 }
 
 .home__container-streamer {
     background-color: forestgreen;
-    font-size: 50px;
     font-weight: bold;
-    text-align: center
+    text-align: center;
+    display: grid;
+    width: 100vw;
+    grid-template-rows: 25% 50% 25%;
 }
 
 .home__streamer {
-    color: #EEEEEE;
+    font-size: 50px;
+    color: #eeeeee;
+    background-color: forestgreen;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__streamer-descripcion {
+    color: #eeeeee;
+    background-color: forestgreen;
+    align-self: center;
+    justify-self: center;
+}
+
+.home__streamer-boton {
+    color: #eeeeee;
+    background-color: forestgreen;
+    align-self: center;
+    align-content: center;
+    height: 60%;
 }

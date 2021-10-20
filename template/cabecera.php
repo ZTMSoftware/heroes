@@ -10,6 +10,7 @@
     <link href="css\footer.css" rel="stylesheet" type="text/css">
     <link href="css\banner.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
     <title>Heroes</title>
 </head>
 
@@ -26,22 +27,22 @@
             </div>
             <div class="navbar-heroes ">
                 <div class="navbar-heroes-titulo navbar-hover-secundario">
-                    <a class="letra" href="http://localhost/heroes-master/heroes.php">HEROES </a>
+                    <a class="letra" href="http://localhost/heroes-php/heroes.php">HEROES </a>
                 </div>
             </div>
             <div class=" navbar-mapas ">
                 <div class=" navbar-mapas-titulo navbar-hover-secundario">
-                    <a class="letra" href="http://localhost/heroes-master/mapas.php">MAPAS </a>
+                    <a class="letra" href="http://localhost/heroes-php/mapas.php">MAPAS </a>
                 </div>
             </div>
             <div class="navbar-streamers ">
                 <div class="navbar-streamers-titulo navbar-hover-secundario">
-                    <a class="letra" href="http://localhost/heroes-master/streamers.php">STREAMERS </a>
+                    <a class="letra" href="http://localhost/heroes-php/streamers.php">STREAMERS </a>
                 </div>
             </div>
             <div class="navbar-tierlist ">
                 <div class="navbar-tierlist-titulo navbar-hover-secundario">
-                    <a class="letra" href="http://localhost/heroes-master/tier_list.php"> TIER LIST </a>
+                    <a class="letra" href="http://localhost/heroes-php/tier_list.php"> TIER LIST </a>
                 </div>
             </div>
             <div class="navbar-salir ">

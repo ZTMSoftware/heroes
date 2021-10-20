@@ -1,28 +1,66 @@
 .mapas__container {
-    background-color: cornflowerblue;
     display: grid;
-    height: 100vh;
-    grid-template-rows: 0.2fr 1fr;
+    grid-template-rows: 150px auto;
+    background-image: url('https://www.xtrafondos.com/wallpapers/vertical/la-tierra-y-la-luna-en-el-espacio-6019.jpg');
+    background-size: cover;
 }
 
 .mapas__container-titulo {
-    background-color: darkblue;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+    align-self: center;
+    justify-self: center;
 }
 
 .mapas__titulo {
-    padding-top: 2.8%;
     color: #EEEEEE;
 }
 
 .mapas__container-lista {
     display: grid;
-    background-color: darkorange;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .mapas__container-lista-mapa {
-    background-color: dimgray;
-    grid-column: span 2;
+    display: grid;
+}
+
+.mapas__container-lista-mapa-carta {
+    align-self: center;
+    justify-self: center;
+    color: #EEEEEE;
+    font-weight: bolder;
+    height: 90%;
+    width: 75%;
+    display: grid;
+    grid-template-rows: 50% 20% 30%;
+    border: 5px #222831 solid;
+    background-color: #0B0D12;
+}
+
+.mapas__container-lista-mapa-carta:hover {
+    border: 5px #00ADB5 solid;
+    cursor: pointer;
+    color: #00ADB5;
+}
+
+.mapas__mapa-carta-img {}
+
+.mapas__mapa-carta-img-estilo {
+    height: 97%;
+    width: 100%;
+}
+
+.mapas__mapa-carta-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+.mapas__mapa-carta-descripcion {
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+    font-weight: normal;
 }

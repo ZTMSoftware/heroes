@@ -1,0 +1,203 @@
+.tierlist__container {
+    background-color: cornflowerblue;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 100px 1fr 1fr 1fr 1fr;
+}
+
+.tierlist__container-titulo {
+    background-color: darkblue;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tierlist__titulo {
+    color: #eeeeee;
+}
+
+.tierlist__container-tiers {
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50px 150px 1fr;
+}
+
+.tierlist__titulo-tiers {
+    align-self: center;
+    justify-self: center;
+}
+
+.tierlist__titulo-letra {
+    color: #eeeeee;
+}
+
+.tierlist__descriccion-tiers {
+    color: #eeeeee;
+    background-color: crimson;
+}
+
+.tierlist__tabla-tiers {
+    background-color: lightcoral;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.tierlist__tabla-titulo {
+    align-self: center;
+    justify-self: center;
+    color: #eeeeee;
+}
+
+.tierlist__tabla-titulo-letra {
+    font-weight: bold;
+    background-color: blue;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.tierlist__tabla-heroe {
+    background-color: chocolate;
+}
+
+.tierlist__tabla-heroe-imagen-conteiner {
+    gap: 10px;
+    display: grid;
+}
+
+.tierlist__tabla-heroe-imagen {
+    display: grid;
+    grid-auto-rows: 90px;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+}
+
+.tierlist__tabla-heroe-imagen-diseño {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    background-color: coral;
+}
+
+.tierlist__container-tier1 {
+    background-color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50px 150px 1fr;
+}
+
+.tierlist__titulo-tier1 {
+    align-self: center;
+    justify-self: center;
+}
+
+.tierlist__titulo-letra-tier1 {
+    color: #eeeeee;
+}
+
+.tierlist__descriccion-tier1 {
+    color: #eeeeee;
+    background-color: brown;
+}
+
+.tierlist__tabla-tier1 {
+    background-color: rgb(24, 93, 95);
+    font-size: 18px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.tierlist__container-tier2 {
+    background-color: dimgray;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50px 150px 1fr;
+}
+
+.tierlist__titulo-tier2 {
+    align-self: center;
+    justify-self: center;
+}
+
+.tierlist__titulo-letra-tier2 {
+    font-weight: bold;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.tierlist__descriccion-tier2 {
+    color: #eeeeee;
+    background-color: forestgreen;
+}
+
+.tierlist__tabla-tier2 {
+    background-color: rgb(52, 40, 184);
+    font-size: 18px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.tierlist__tabla-titulo-tier2 {
+    align-self: center;
+    justify-self: center;
+}
+
+.tierlist__tabla-heroe-tier2 {
+    background-color: rgb(141, 52, 96);
+}
+
+.tierlist__tabla-titulo-letra-tier2 {
+    font-weight: bold;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.tierlist__container-tier3 {
+    background-color: orangered;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 50px 150px 1fr;
+}
+
+.tierlist__titulo-tier3 {
+    align-self: center;
+    justify-self: center;
+}
+
+.tierlist__titulo-letra-tier3 {
+    color: #eeeeee;
+}
+
+.tierlist__descriccion-tier3 {
+    color: #eeeeee;
+    background-color: saddlebrown;
+}
+
+.tierlist__tabla-tier3 {
+    background-color: crimson;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.4fr 1fr;
+}

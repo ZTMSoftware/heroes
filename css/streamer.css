@@ -1,0 +1,57 @@
+.streamer__container {
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-rows: 150px auto;
+}
+
+.streamer__container-titulo {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.streamer__titulo {
+    color: #eeeeee;
+}
+
+.streamer__container-lista {
+    display: grid;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    background-color: darkblue;
+}
+
+.streamer__container-lista-video {
+    display: grid;
+}
+
+.streamer__container-lista-video-carta {
+    align-self: center;
+    justify-self: center;
+    background-color: darkblue;
+    color: #eeeeee;
+    font-weight: bold;
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 60% 20% 20%;
+    border: 5px darkgreen solid;
+}
+
+.streamer__streamer-carta-img-estilo {
+    height: 97%;
+    width: 100%;
+}
+
+.streamer__streamer-carta-titulo {
+    align-self: center;
+    justify-self: center;
+}
+
+.streamer__streamer-carta-descripcion {
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+}

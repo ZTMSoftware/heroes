@@ -1,12 +1,9 @@
 .navbar {
-    background-color: #393E46;
-    height: 70px;
+    background-color: #0B0D12;
     color: #EEEEEE;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    width: 100%;
-    position: static;
-    bottom: 0;
+    grid-auto-rows: 70px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
@@ -117,7 +114,7 @@
 
 /* / Estilos hover / */
 
-.navbar-hover-secundario:hover {
+.navbar-hover-secundario:before {
     background-color: #00ADB5;
     cursor: pointer;
 }

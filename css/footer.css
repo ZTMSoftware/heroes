@@ -1,10 +1,11 @@
 .footer__container {
-    background-color: #393E46;
+    background-color: #0B0D12;
     height: 300px;
     width: 100%;
     display: grid;
-    grid-auto-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 5%;
 }
 
 .footer__col1 {
@@ -49,10 +50,17 @@
 .footer__col-nos {
     align-self: center;
     justify-self: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .footer__col-cont {
     align-self: center;
     justify-self: center;
+    cursor: pointer;
+}
+
+.footer__opciones:hover {
+    color: #00ADB5;
     cursor: pointer;
 }
